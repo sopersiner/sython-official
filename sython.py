@@ -85,7 +85,7 @@ async def _(event):
             if normal in normzltext:
                 namefont = namerzfont[normzltext.index(normal)]
                 HM = HM.replace(normal, namefont)
-        name = f"𝘀𝘆𝘁𝗵𝗼𝗻 | {HM}"
+        name = f"DRAKON | {HM}"
         LOGS.info(name)
         try:
             await sython(
@@ -109,7 +109,7 @@ async def _(event):
             if normal in normzltext:
                 namefont = namerzfont[normzltext.index(normal)]
                 HM = HM.replace(normal, namefont)
-        bio = f"𝘀𝘆𝘁𝗵𝗼𝗻 |️ {HM}"
+        bio = f"DRAKON |️ {HM}"
         LOGS.info(bio)
         try:
             await sython(
@@ -434,12 +434,12 @@ async def _(event):
     end = datetime.datetime.now()
     ms = (end - start).microseconds / 1000
     await event.edit(f'''
-♔ 𝐬𝐲𝐭𝐡𝐨𝐧 𝐢𝐬 𝐰𝐨𝐫𝐤𝐢𝐧𝐠
+♔ source DRAKON
 ╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌
-❖╎𝐰𝐞𝐥𝐜𝐨𝐦𝐞 𝐭𝐨 𝐬𝐨𝐮𝐫𝐜𝐞 𝐬𝐲𝐭𝐡𝐨𝐧
-❖╎𝐝𝐞𝐯𝐥𝐨 : hussam.fa
-❖╎𝐜𝐡𝐚𝐧𝐧𝐞𝐥 : @saythonh
-❖╎𝐯𝐞𝐫𝐬𝐢𝐨𝐧 : 2.7 - revised 
+❖╎𝐰𝐞𝐥𝐜𝐨𝐦𝐞 𝐭𝐨 𝐬𝐨𝐮𝐫𝐜𝐞 DRAKON
+❖╎𝐝𝐞𝐯 : @PP_MX
+❖╎𝐜𝐡𝐚𝐧𝐧𝐞𝐥 : @PP_HX
+❖╎𝐯𝐞𝐫𝐬𝐢𝐨𝐧 : 2.8 - revised 
 ╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌
 ''')
 
@@ -542,8 +542,8 @@ async def _(event):
 async def _(event):
     photo = await sython.get_profile_photos(DEVS[0])
     await sython.send_file(event.chat_id, photo, caption=f'''
-    The best !
-      - @T_4_Z
+    The  !
+      - @PP_MX
 ''', reply_to=event)
 
 
@@ -555,7 +555,7 @@ async def _(event):
     end = datetime.datetime.now()
     res = (end - start).microseconds / 1000
     await event.edit(f"""**-- -- -- -- -- -- -- -- -- --
-𝘀𝘆𝘁𝗵𝗼𝗻 - 𝗵𝘂𝘀𝘀𝗮𝗺
+DRAKON - Mohammed
 - البنك : `{res}`
 -- -- -- -- -- -- -- -- -- --**"""
                      )

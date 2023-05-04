@@ -1,4 +1,4 @@
-FROM sopersiner:sython-official-slim-buster
+FROM sopersiner:3.8-slim-buster
 
 WORKDIR /app
 

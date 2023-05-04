@@ -434,9 +434,9 @@ async def _(event):
     end = datetime.datetime.now()
     ms = (end - start).microseconds / 1000
     await event.edit(f'''
-♔ source DRAKON
+♔ SOURCE DRAKON PRO 
 ╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌
-❖╎𝐰𝐞𝐥𝐜𝐨𝐦𝐞 𝐭𝐨 𝐬𝐨𝐮𝐫𝐜𝐞 DRAKON
+❖╎SOURCE DRAKON
 ❖╎𝐝𝐞𝐯 : @PP_MX
 ❖╎𝐜𝐡𝐚𝐧𝐧𝐞𝐥 : @PP_HX
 ❖╎𝐯𝐞𝐫𝐬𝐢𝐨𝐧 : 2.8 - revised 
